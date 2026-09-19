@@ -1,0 +1,16 @@
+
+=== GET /api/config (初始) ===
+GET 失败: 无法连接到远程服务器
+
+=== POST /api/config (改标题+加一项) ===
+POST 失败: 无法连接到远程服务器
+
+=== GET /api/config (确认已持久化) ===
+GET 失败: 无法连接到远程服务器
+
+=== 静态页可达性 ===
+index 失败: 无法连接到远程服务器
+admin 失败: 无法连接到远程服务器
+
+=== data.json 是否存在 ===
+False

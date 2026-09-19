@@ -1,0 +1,117 @@
+{
+  "title": "展厅控制中心",
+  "screens": [
+    {
+      "id": "s_welcome",
+      "name": "大弧屏",
+      "url": "http://192.168.1.22:8876",
+      "icon": "🏠",
+      "enabled": true
+    },
+    {
+      "id": "s_data",
+      "name": "3*3",
+      "url": "http://192.168.1.23:8876",
+      "icon": "📊",
+      "enabled": true
+    },
+    {
+      "id": "s_video",
+      "name": "2*2",
+      "url": "http://192.168.1.24:8876",
+      "icon": "🎬",
+      "enabled": true
+    },
+    {
+      "id": "s_monitor",
+      "name": "小弧屏",
+      "url": "http://192.168.1.25:8876",
+      "icon": "📡",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tdzvtda4f",
+      "name": "展厅直屏",
+      "url": "http://192.168.1.26:8876",
+      "icon": "🖥",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3teeoyg6sz",
+      "name": "办公区直屏",
+      "url": "http://192.168.1.27:8876",
+      "icon": "🖭",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3teylv6u8c",
+      "name": "电视1",
+      "url": "http://192.168.1.31:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tf46ffumo",
+      "name": "电视2",
+      "url": "http://192.168.1.32:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tf8qq71j1",
+      "name": "电视3",
+      "url": "http://192.168.1.33:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tfdjwa7x4",
+      "name": "电视4",
+      "url": "http://192.168.1.34:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tfir9s6kr",
+      "name": "电视5",
+      "url": "http://192.168.1.35:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tfp8vmf4a",
+      "name": "电视6",
+      "url": "http://192.168.1.36:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tfuk4v5i7",
+      "name": "电视7",
+      "url": "http://192.168.1.37:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tg05ceky4",
+      "name": "电视8",
+      "url": "http://192.168.1.38:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tg76omwh8",
+      "name": "电视9",
+      "url": "http://192.168.1.39:8876",
+      "icon": "📺",
+      "enabled": true
+    },
+    {
+      "id": "s_mu3tgdfeae5u",
+      "name": "电视10",
+      "url": "http://192.168.1.40:8876",
+      "icon": "📺",
+      "enabled": true
+    }
+  ]
+}

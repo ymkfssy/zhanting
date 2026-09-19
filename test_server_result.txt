@@ -1,0 +1,19 @@
+已删除旧 data.json
+1) GET /api/config 初始 -> 200
+   默认屏数=4, title=展厅控制中心
+   默认屏名=欢迎页、数据大屏、宣传视频、实时监控
+2) POST /api/config 17屏 -> 200
+   返回屏数=17, 可见(enabled)屏数=16
+3) GET 确认持久化 -> 200, 屏数=17
+   data.json 文件存在=True
+4) POST 空请求体 -> 400, msg={"error": "请求体为空，未做任何修改"}
+   空POST后屏数仍为=17（未被清空）
+5) POST 非法JSON -> 400, msg={"error": "请求体不是合法 JSON"}
+   非法JSON后屏数仍为=17
+6) GET / -> 200
+6) GET /index.html -> 200
+6) GET /admin.html -> 200
+6) GET /assets/css/style.css -> 200
+6) GET /manifest.webmanifest -> 200
+7) OPTIONS /api/config -> 204
+8) data.json 损坏后 GET -> 200, 屏数=4(回退默认)

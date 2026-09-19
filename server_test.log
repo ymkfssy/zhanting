@@ -1,0 +1,14 @@
+[展厅服务器] "GET /api/config HTTP/1.1" 200 -
+[展厅服务器] "POST /api/config HTTP/1.1" 200 -
+[展厅服务器] "GET /api/config HTTP/1.1" 200 -
+[展厅服务器] "POST /api/config HTTP/1.1" 400 -
+[展厅服务器] "GET /api/config HTTP/1.1" 200 -
+[展厅服务器] "POST /api/config HTTP/1.1" 400 -
+[展厅服务器] "GET /api/config HTTP/1.1" 200 -
+[展厅服务器] "GET / HTTP/1.1" 200 -
+[展厅服务器] "GET /index.html HTTP/1.1" 200 -
+[展厅服务器] "GET /admin.html HTTP/1.1" 200 -
+[展厅服务器] "GET /assets/css/style.css HTTP/1.1" 200 -
+[展厅服务器] "GET /manifest.webmanifest HTTP/1.1" 200 -
+[展厅服务器] "OPTIONS /api/config HTTP/1.1" 204 -
+[展厅服务器] "GET /api/config HTTP/1.1" 200 -

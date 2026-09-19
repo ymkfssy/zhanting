@@ -1,0 +1,3 @@
+exists=True
+list=['icon-192.png', 'icon-512.png', 'icon-maskable-512.png', '_done.txt']
+cwd=C:\Users\gaolin\WorkBuddy\展厅控制

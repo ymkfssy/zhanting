@@ -1,0 +1,5 @@
+/ -> 200
+/index.html -> 200
+/admin.html -> 200
+/api/config -> 200
+/assets/css/style.css -> 200
